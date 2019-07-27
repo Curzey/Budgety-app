@@ -257,7 +257,7 @@ var controller = (function(budgetCtrl, UICtrl) {
 
     return {
         init: function() {
-            console.log('App has started.');
+            console.log('App has started, and is ONLINE.');
 
             // Reset UI.
             UICtrl.displayBudget({
